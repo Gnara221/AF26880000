@@ -19,7 +19,8 @@ The main hardware we used are as follows:
 | 0.96 inch OLED screen | display debug parameters |
 | CH32V307XX            | download program         |
 | VG2392S240X0M2        | wireless-corresponding   |
-
+- PCB Tools: LCEDA
+- PCB layout:  https://oshwhub.com/mawentao/stm32f4-fei-kong-ban
 
 ## Software
 see more details in [[keil5/AF_26880000/map|map]]
