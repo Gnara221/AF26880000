@@ -1,29 +1,41 @@
-#  AF\_26880000
+# AF_26880000
 
-This is the latest version of our team and we may never update this project.
+This is the latest version of our team's quadcopter project. The project focuses on designing and implementing a quadcopter with advanced flight control algorithms, sensor integration, and real-time operating system support. This repository may not be updated in the future.
+
+## Project Overview
+- **Objective**: To design a quadcopter capable of stable flight using advanced control algorithms and sensor fusion.
+- **Key Features**:
+  - Real-time operating system (RTOS) support.
+  - Sensor integration (GY-86 for IMU data).
+  - Wireless debugging and programming.
+  - PID control for flight stability.
 
 ## Description
-### Hardware
-The main hardware we used are as follows:
+## Hardware
 
-| Device/               | Usage                    |
-| --------------------- | ------------------------ |
-| F450                  | frame                    |
-| XXD-A2212-1000KV      | motor                    |
-| FS-i6                 | controller               |
-| FS-iA6B               | receiver                 |
-| paddles               | paddles                  |
-| STM32F401RET6         | main compute chip        |
-| GY-86                 | sensors                  |
-| HM-10/HC-05           | BLE                      |
-| 0.96 inch OLED screen | display debug parameters |
-| CH32V307XX            | download program         |
-| VG2392S240X0M2        | wireless-corresponding   |
-- PCB Tools: LCEDA
-- PCB layout:  https://oshwhub.com/mawentao/stm32f4-fei-kong-ban
+The main hardware components used in this project are as follows:
+
+| Device/Component       | Usage                          |
+|------------------------|--------------------------------|
+| F450                   | Frame                          |
+| XXD-A2212-1000KV       | Motor                          |
+| FS-i6                  | Controller                     |
+| FS-iA6B                | Receiver                       |
+| Paddles                | Paddles                        |
+| STM32F401RET6          | Main compute chip              |
+| GY-86                  | Sensors (IMU)                  |
+| HM-10/HC-05            | BLE (Bluetooth Low Energy)     |
+| 0.96 inch OLED screen  | Display debug parameters       |
+| CH32V307XX             | Program download               |
+| VG2392S240X0M2         | Wireless communication         |
+
+- **PCB Tools**: LCEDA
+- **PCB Layout**: [View on OSHWHub](https://oshwhub.com/mawentao/stm32f4-fei-kong-ban)
+[^1]: Because of some problems, the Hardware design needs to be published after adjustment.
+
 
 ## Software
-see more details in [[keil5/AF_26880000/map|map]]
+The software structure are as follows: 
 
 ```
 AF_26880000
@@ -107,3 +119,7 @@ AF_26880000
       └─ readme.txt
 
 ```
+For the more details, see [map]<https://github.com/Gnara221/AF26880000/blob/main/map.md>
+## Acknowledgments
+- Special thanks to our instructor for his guidance and support throughout the project.
+- Thanks to all team members @Guystone, @Poscape,@ZihengQiu for their hard work and collaboration.
